@@ -1,6 +1,5 @@
-// src/pages/Blog.tsx
+import '../styles/blog.css'; 
 import { Link } from 'react-router-dom';
-import './styles/blog.css'; // Adjust the path if needed
 
 
 const Blog = () => {
