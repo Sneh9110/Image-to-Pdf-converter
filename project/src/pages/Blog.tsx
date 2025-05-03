@@ -1,9 +1,10 @@
 // src/pages/Blog.tsx
 import { Link } from 'react-router-dom';
-import '../styles/blog.css'; // Adjust the path if needed
+import './styles/blog.css'; // Adjust the path if needed
 
 
 const Blog = () => {
+    console.log("Blog component rendered!");
   return (
     <div className="blog-list">
       <h1>Our Blog</h1>
