@@ -1,3 +1,4 @@
+import { SpeedInsights } from "@vercel/speed-insights/next"
 import { Analytics } from "@vercel/analytics/react"; // Import Vercel Analytics
 import { Toaster } from "@/components/ui/toaster";
 import { Toaster as Sonner } from "@/components/ui/sonner";
@@ -29,6 +30,7 @@ const App = () => (
         </Routes>
       </BrowserRouter>
       <Analytics />
+      <SpeedInsights/>
     </TooltipProvider>
   </QueryClientProvider>
 );
